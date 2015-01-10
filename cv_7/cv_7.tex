@@ -1,0 +1,103 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% "ModernCV" CV and Cover Letter
+% LaTeX Template
+% Version 1.11 (19/6/14)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Xavier Danaux (xdanaux@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template requires the moderncv.cls and .sty files to be in the same 
+% directory as this .tex file. These files provide the resume style and themes 
+% used for structuring the document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+
+\moderncvstyle{casual} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+
+\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+
+\usepackage[scale=0.75]{geometry} % Reduce document margins
+%\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
+%\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+\firstname{Max} % Your first name
+\familyname{Gurewitz} % Your last name
+
+% All information in this block is optional, comment out any lines you don't need
+\mobile{(323) 327 8738}
+\email{maxgurewitz@gmail.com}
+\homepage{http://maxgurewitz.github.io/}{http://maxgurewitz.github.io/} % The first argument is the url for the clickable link, the second argument is the url displayed in the template - this allows special characters to be displayed such as the tilde in this example
+\extrainfo{additional information}
+\photo[120pt][0.4pt]{pictures/headshot1} % The first bracket is the picture height, the second is the thickness of the frame around the picture (0pt for no frame)
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+
+\makecvtitle % Print the CV title
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Work Experience}
+\cventry{July 2014-- Current }{Software Engineer}{Wanelo}{San Francisco}{}{Full stack Ruby on Rails engineer.  Played a key role in developing Wanelo's search engine, its transaction system, and its visual layout and design.  Client side work with Backbone.  Helped to build Stripe and Shopify integration.  Utilized technologies include postgres, redis, solr, elastic search, chef etc.  }
+
+\cventry{July 2013-- May 2014}{Software Engineer}{Beats Music}{San Francisco}{}{Worked primarily as a Node.js backend engineer.  This entailed the use of Couchbase and MySQL databases.  Helped to build Facebook, twitter, vindicia cashbox and att integration.  Worked with elastic search and solr search engines.  Work extended to many areas including but not limited to music library data structures, music recommendations, search, billing services, and event handling. }
+
+
+\cventry{Summer of 2012}{Software Engineer, Intern}{Topspin Media}{Los Angeles}{}{ Developed a tool for organizing and dynamically displaying customer and product metadata.  Building this tool required full stack development, using Ruby on Rails. }
+
+\cventry{Summer of 2007}{Intern}{Epitaph Records}{Los Angeles}{}{ Assisted the company webmaster.  Organized company records. }
+
+\section{Skills}
+
+\cvitem{Frameworks}{Node.js, Ruby on Rails, Restify, Express, Backbone}
+\cvitem{Databases}{Postgres, MongoDB, Couchbase, MySQL}
+\cvitem{Languages}{Ruby, Javascript, Python, Java, Scala, Haskell, SML, Mathematica, Matlab, Labview}
+\cvitem{Markup and Formatting}{\textsc{html}, CSS, \LaTeX}
+
+\section{Education}
+\cventry{2009-2013}{B.A.}{}{Reed College}{}{Physics}  % Arguments not required can be left empty
+\cventry{2005-2009}{High School Diploma}{}{Oakwood School}{}{}  % Arguments not required can be left empty
+
+\section{Undergraduate Thesis}
+
+\cvitem{2012-2013}{Multilayer Perceptrons}
+\cvitem{Supervisor}{Joel Franklin}
+
+\cvitem{Description}{This thesis introduces the reader to the theory which underlies multilayer perceptrons, and supervised learning.  It also includes an implementation of multilayer perceptrons in python, as well as visualizations of overtraining multilayer perceptrons in video form.}
+
+\section{Interests}
+
+\cvlistdoubleitem{Machine Learning}{Illustration}
+\cvlistdoubleitem{Brazillian Jiu Jitsu}{Physics}
+
+%----------------------------------------------------------------------------------------
+%	COVER LETTER
+%----------------------------------------------------------------------------------------
+
+% To remove the cover letter, comment out this entire block
+\end{document}
